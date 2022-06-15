@@ -1,0 +1,114 @@
+html { font-size: 100% }
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	color: #222;
+}
+a { 
+	text-decoration: none; 
+	color: inherit;
+}
+
+/* Fonts
+    font-family: 'Lora', serif; 400
+    font-family: 'Playfair Display', serif; 600
+    font-family: 'Roboto', sans-serif; 400
+*/
+
+img { 
+	object-fit: cover; 
+	vertical-align: bottom;
+}
+figcaption { 
+	font-family: 'Roboto', sans-serif;
+	color: grey; 
+	text-align: right;
+	font-size: 10px;
+	padding-top: 2px;
+}
+h1, h2 { 
+	font-family: 'Playfair Display', serif;
+	color: #000;
+}
+.bajada { 
+	font-family: 'Lora', serif; 
+	color: #151515; 
+}
+.tema { 
+	font-family: 'Roboto', sans-serif; 
+	color: #000;
+} 
+.fecha { 
+	font-family: 'Roboto', sans-serif;
+	color: grey;
+}
+p {
+	font-family: 'Lora', serif; 
+	color: #222;
+}
+
+// CONTACTO
+.contacto {
+	background-color: #faf4eb;
+	min-height: 100vh;
+	.container {
+		padding: 20px;
+		margin-top: 50px;
+		text-align: center;
+		font-family: 'Lora', serif;
+		.subcontainer {
+			margin-bottom: 50px;
+			h3 {
+				font-family: 'Playfair Display', serif;
+				font-size: 22px;
+				padding-bottom: 15px;
+				margin-bottom: 25px;
+				border-bottom: 2px dotted #938884;
+			}
+			p {
+				margin-bottom: 20px;
+			}
+		}
+		
+	}
+}
+@media only screen and (min-width: 558px){
+.contacto {
+	display: flex;
+	justify-content: center;
+	.container {
+		margin-top: 100px;
+		width: 70%;
+	}
+}
+
+}
+
+@media only screen and (min-width: 958px){
+
+.contacto {
+	background-color: white;
+	.container {
+		border: 10px solid #faf4eb;
+		width: 1100px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding-top: 80px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		.subcontainer {
+			width: 50%;
+			h3 {
+				font-size: 26px;
+			}
+			p {
+				font-size: 20px;
+			}
+		}
+	}
+}
+
+}
+

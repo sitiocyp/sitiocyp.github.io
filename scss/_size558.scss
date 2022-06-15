@@ -1,0 +1,66 @@
+@media only screen and (min-width: 558px){
+
+.landing {
+	width: 90%;
+	padding: 15px 0px;
+	margin: 0 auto;
+	.principal {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		article:nth-child(1) {
+			display: flex;
+			figure {
+				width: 50%;
+				padding: 20px;
+				display: flex;
+				align-items: center;
+			}
+			header {
+				width: 50%;
+				.container { padding: 20px; }
+				h2 { 
+					font-size: 20px; 
+					line-height: 23px;
+				}
+			}
+		} 
+		article:nth-child(2), article:nth-child(3), article:nth-child(4) { 
+			width: 32%; 
+			header .container {
+				padding: 5px;
+				h2 { 
+					font-size: 18px; 
+					line-height: 20px;
+				}
+			}
+		}
+	}
+	.lista {
+		margin-top: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		article {
+			flex-direction: row;
+			width: 70%;
+			figure a img { height: auto; }
+			header {
+				border-color: #e0dcdb;
+				.container {
+					padding: 15px;
+					h2 { font-size: 18px; }
+				}
+			}
+		}
+	}
+}
+
+footer {
+	.container {
+		margin: 0 auto;
+		width: 90%;
+	}
+}
+	
+}

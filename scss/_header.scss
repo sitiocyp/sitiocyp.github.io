@@ -1,0 +1,137 @@
+// Mobile ----------------------------
+.header__container {
+	background-color: white;
+	border-bottom: 1px solid lightgrey;
+	height: 50px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	header {
+		height: 100%;
+		width: 100%;
+		padding: 0px 15px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		.logo {
+			display: flex;
+			align-self: center;
+			width: 60%;
+			.main-logo { 
+				width: 100%; 
+				//max-width: 200px;
+			}
+		}
+		.hamburger {
+			display: flex;
+			align-self: center;
+			svg { 
+				height: 25px; 
+				width: 25px;
+				fill: #222;
+			}
+			.cross {
+				display: none;
+			}
+		}
+		.navbar {
+			display: none;
+			background-color: white;
+			position: fixed;
+			width: 100%;
+			top: 50px;
+			left: 0;
+			.menu {
+				font-family: 'Roboto', sans-serif;
+				padding: 20px 15px 0px;
+				display: flex;
+				align-items: flex-end;
+				flex-direction: column;
+				border-bottom: 1px solid lightgrey;	
+				.menu-item {
+					margin-bottom: 20px;
+					border-bottom: 1px solid lightgrey;
+					padding-bottom: 5px;
+					font-size: 16px;
+				}
+			}
+		}
+	}	
+}
+
+@media only screen and (min-width: 558px){
+
+.header__container {
+	height: 60px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	header {
+		width: 90%;
+		padding: 0px;
+		.logo { width: 250px; }
+		.navbar {
+			top: 60px;
+			.menu {	
+				flex-direction: row;
+				justify-content: space-around;
+				flex-wrap: wrap;
+				.menu-item {
+					border-bottom: none;
+					margin-bottom: 0px;
+					padding-bottom: 20px;
+				}
+			}
+		}
+	}
+}
+
+}
+
+@media only screen and (min-width: 958px){
+
+.header__container {
+	border-bottom: none;
+	position: initial; 
+	height: 100%;
+	header {
+		max-width: 1100px;
+		justify-content: center;
+		flex-direction: column;
+		.logo {
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			height: 120px;
+			.main-logo {
+				align-self: center;
+				height: 30px;
+				width: auto;
+			}
+		}
+		.hamburger { display: none; }
+		.navbar {
+			display: inline;
+			height: 55px;
+			max-width: 1100px;
+			position: initial; 
+			border-top: 1px solid lightgrey;
+			border-bottom: 1px solid lightgrey;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			.menu {
+				padding: 0px;
+				border-bottom: none;
+				.menu-item {
+					padding: 0px;
+					margin: 0px 12px;
+					transition: .1s;
+				}
+				.menu-item:hover { color: #938884; }
+			}
+		}
+	}
+}
+
+}
