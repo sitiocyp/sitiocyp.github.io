@@ -527,8 +527,59 @@ footer .container img {
   width: 100%;
   height: auto;
 }
+.post .rrss {
+  margin-top: 15px;
+}
+.post .rrss .inner-rrss {
+  padding: 10px 15px;
+  border-bottom: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+}
+.post .rrss .inner-rrss .navbar-rrss {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.post .rrss .inner-rrss .navbar-rrss a {
+  margin: 0px 10px;
+  border: 1.5px solid #222;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+.post .rrss .inner-rrss .navbar-rrss a span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.post .rrss .inner-rrss .navbar-rrss a span svg {
+  height: 27px;
+  width: 27px;
+  fill: none;
+  stroke: #222;
+  stroke-width: 5px;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.post .rrss .inner-rrss .navbar-rrss a span .tw-icon {
+  padding-top: 5px;
+}
+.post .rrss .inner-rrss .navbar-rrss a span .em-icon {
+  padding-top: 5px;
+}
+.post .rrss .inner-rrss .navbar-rrss a span .fb-icon {
+  padding-top: 1px;
+}
+.post .rrss .inner-rrss .navbar-rrss .share-rrss {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  margin-right: 20px;
+}
 .post .texto {
   padding: 15px;
+}
+.post .texto .container {
+  margin-bottom: 30px;
 }
 .post .texto p {
   margin-bottom: 20px;
@@ -617,6 +668,10 @@ footer .container img {
     width: 70%;
     margin-bottom: 20px;
   }
+  .post .rrss-top .inner-rrss {
+    border: none;
+    margin-top: 20px;
+  }
   .post .texto {
     width: 70%;
     margin-top: 20px;
@@ -677,9 +732,20 @@ footer .container img {
     padding-top: 3px;
     font-size: 12px;
   }
+  .post .rrss a.btn-link:hover {
+    transition: 0.2s;
+    background-color: beige;
+  }
+  .post .rrss-bottom {
+    margin-top: 50px;
+  }
+  .post .rrss-top {
+    width: 65%;
+    margin-top: 30px;
+  }
   .post .texto {
     width: 65%;
-    padding-top: 40px;
+    padding-top: 20px;
   }
   .post .texto .container p {
     font-size: 18px;

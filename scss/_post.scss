@@ -36,8 +36,59 @@
 			}
 		}
 	}
+	.rrss {
+		margin-top: 15px;
+		.inner-rrss {
+			padding: 10px 15px;
+			border-bottom: 1px solid lightgrey;
+			border-top: 1px solid lightgrey;
+			.navbar-rrss {
+				display: flex;
+				align-items: center;
+				justify-content: center;	
+				a {
+					margin: 0px 10px;
+					border: 1.5px solid #222;
+					border-radius: 50%;
+					width: 35px;
+					height: 35px;
+					span {
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						svg {	
+							height: 27px;
+							width: 27px;
+							fill: none;
+							stroke: #222;
+							stroke-width: 5px;
+							stroke-linejoin: round;
+							stroke-miterlimit: 10;
+						}
+						.tw-icon {
+							padding-top: 5px;
+						}
+						.em-icon {
+							padding-top: 5px;
+						}
+						.fb-icon {
+							padding-top: 1px;
+						}
+					}
+				}
+				.share-rrss {
+					font-family: 'Roboto', sans-serif;
+					font-size: 14px;
+					margin-right: 20px;
+				}
+			}
+		}
+	}
 	.texto {
 		padding: 15px;
+		.container {
+			margin-bottom: 30px;
+		}
 		p { 
 			margin-bottom: 20px; 
 			font-size: 16px;
@@ -125,6 +176,12 @@
 			margin-bottom: 20px;
 		}
 	}
+	.rrss-top {
+		.inner-rrss {
+			border: none;
+			margin-top: 20px;
+		}
+	}
 	.texto {
 		width: 70%;
 		margin-top: 20px;
@@ -183,9 +240,22 @@
 			}
 		}
 	}
+	.rrss {
+		a.btn-link:hover {
+			transition: .2s;
+			background-color: beige;
+		}
+	}
+	.rrss-bottom {
+		margin-top: 50px;
+	}
+	.rrss-top {
+		width: 65%;
+		margin-top: 30px;
+	}
 	.texto {
 		width: 65%;
-		padding-top: 40px;
+		padding-top: 20px;
 		.container {
 			p { 
 				font-size: 18px; 
