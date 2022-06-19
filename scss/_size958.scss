@@ -30,7 +30,11 @@
 						font-size: 42px; 
 						line-height: 44px;
 						font-weight: 500;
-						padding-bottom: 20px;
+						padding-bottom: 30px;
+					}
+					.autor { 
+						font-size: 14px; 
+						padding-bottom: 15px;
 					}
 					.bajada { font-size: 17px; }
 					.info { margin-top: auto; }
@@ -45,6 +49,7 @@
 					font-size: 22px; 
 					line-height: 25px;
 				}
+				.autor { font-size: 12px; }
 				.bajada { font-size: 16px; }
 			}
 		}
@@ -63,7 +68,7 @@
 						padding-bottom: 4px;
 						line-height: 25px;
 					}
-					.tema, .fecha { font-size: 12px; }
+					.autor, .tema, .fecha { font-size: 12px; }
 				}
 			}
 		}
