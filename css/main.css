@@ -179,6 +179,27 @@ p {
   padding-bottom: 5px;
   font-size: 16px;
 }
+.header__container header .navbar .menu .tuit-follow {
+  height: 23px;
+  width: 23px;
+  border-bottom: none;
+}
+.header__container header .navbar .menu .tuit-follow span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 23px;
+  width: 23px;
+}
+.header__container header .navbar .menu .tuit-follow span svg {
+  height: 23px;
+  width: 23px;
+  fill: none;
+  stroke: #222;
+  stroke-width: 5px;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
 
 @media only screen and (min-width: 558px) {
   .header__container {
@@ -201,11 +222,15 @@ p {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    align-items: center;
   }
   .header__container header .navbar .menu .menu-item {
     border-bottom: none;
     margin-bottom: 0px;
     padding-bottom: 20px;
+  }
+  .header__container header .navbar .menu .tuit-follow {
+    height: auto;
   }
 }
 @media only screen and (min-width: 958px) {
