@@ -57,14 +57,16 @@
 					border-radius: 50%;
 					width: 35px;
 					height: 35px;
+					//background-color: green;
 					span {
 						display: flex;
 						justify-content: center;
 						align-items: center;
-						width: 35px;
-						height: 35px;
+						width: 30px;
+						height: 30px;
+						padding-left: 4px;
+						//background-color: red;
 						svg {	
-							
 							height: 27px;
 							width: 27px;
 							fill: none;
