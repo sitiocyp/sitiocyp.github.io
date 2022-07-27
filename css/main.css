@@ -740,8 +740,8 @@ footer .container img {
     line-height: 48px;
     margin-right: 3px;
   }
-  .post .texto .container .img-interior {
-    width: 85%;
+  .post .texto .container .img-interior figure img {
+    border: 15px solid #f6f3ee;
   }
   .post .texto .container .fuente {
     padding-top: 20px;
@@ -819,19 +819,11 @@ footer .container img {
   .post .texto .container .link:hover {
     text-decoration: underline;
   }
-  .post .texto .container .img-interior {
-    width: 85%;
-  }
-  .post .texto .container .img-interior figure {
-    display: flex;
-    justify-content: center;
-  }
   .post .texto .container .img-interior figure img {
-    width: 80%;
+    border: 15px solid #f6f3ee;
   }
   .post .texto .container .img-interior figure figcaption {
-    align-self: flex-end;
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 .seccion {

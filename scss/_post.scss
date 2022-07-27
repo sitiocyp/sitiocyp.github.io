@@ -204,7 +204,14 @@
 				line-height: 48px;
 				margin-right: 3px;
 			}
-			.img-interior { width: 85%; }
+			.img-interior {
+				figure {
+					img {
+						border: 15px solid #f6f3ee;
+					}
+				}
+			}
+
 			.fuente { padding-top: 20px; }
 			.nota-al-pie {
 				font-size: 13px;
@@ -286,14 +293,12 @@
 			}
 			.link:hover { text-decoration: underline; }
 			.img-interior {
-				width: 85%;
 				figure {
-					display: flex;
-					justify-content: center;
-					img { width: 80%; }
+					img {
+						border: 15px solid #f6f3ee;
+					}
 					figcaption {
-						align-self: flex-end;
-						font-size: 10px;
+						font-size: 12px;
 					}
 				}
 			}
