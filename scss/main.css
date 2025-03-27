@@ -122,7 +122,7 @@ p {
   }
 }
 .header__container {
-  background-color: white;
+  background-color: rgb(159, 24, 24);
   border-bottom: 1px solid lightgrey;
   height: 50px;
   position: fixed;
