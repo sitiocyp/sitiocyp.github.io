@@ -750,6 +750,15 @@ footer .container img {
   .post .texto .container .img-interior figure img {
     border: 15px solid #f6f3ee;
   }
+  .post .texto .container .subtitulo-2 {
+    font-weight: 600;
+    margin-top: 40px;
+    font-style: italic;
+  }
+  .post .texto .container .estrofa {
+    display: block;
+    margin-bottom: 7px;
+  }
   .post .texto .container .fuente {
     padding-top: 20px;
   }
@@ -822,6 +831,15 @@ footer .container img {
     margin-top: 30px;
     margin-bottom: 25px;
     padding-left: 10px;
+  }
+  .post .texto .container .subtitulo-2 {
+    font-weight: 600;
+    margin-top: 40px;
+    font-style: italic;
+  }
+  .post .texto .container .estrofa {
+    display: block;
+    margin-bottom: 7px;
   }
   .post .texto .container .link:hover {
     text-decoration: underline;
