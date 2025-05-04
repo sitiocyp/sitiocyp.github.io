@@ -220,6 +220,15 @@
 					}
 				}
 			}
+			.subtitulo-2 {
+				font-weight: 600;
+				margin-top: 40px;
+				font-style: italic;
+			}
+			.estrofa {
+				display: block;
+				margin-bottom: 7px;
+			}
 
 			.fuente { padding-top: 20px; }
 			.nota-al-pie {
@@ -299,6 +308,15 @@
 				margin-top: 30px;
 				margin-bottom: 25px;
 				padding-left: 10px;
+			}
+			.subtitulo-2 {
+				font-weight: 600;
+				margin-top: 40px;
+				font-style: italic;
+			}
+			.estrofa {
+				display: block;
+				margin-bottom: 7px;
 			}
 			.link:hover { text-decoration: underline; }
 			.img-interior {
